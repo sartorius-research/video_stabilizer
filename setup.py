@@ -20,7 +20,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        'cv2>=4.2.0',
+        'opencv-python>=4.2.0',
     ],
     python_requires='>=3.6',
 )
