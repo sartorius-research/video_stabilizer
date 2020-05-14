@@ -32,7 +32,7 @@ import cv2
 import video_stabilizer
 
 cap = cv2.VideoCapture(...)
-frame_generator = video_stabilizer.generate_frames_from_video(cap)  # Ph stands for phase-images
+frame_generator = video_stabilizer.generate_frames_from_video(cap)
 
 for stabilized_frame, transform in video_stabilizer.stabilize_video(frame_generator):
     do_something(stabilized_frame, transform)
